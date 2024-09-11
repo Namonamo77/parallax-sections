@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.light-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 100vh;
+}
+.dark-bg {
+    background: rgb(1, 1, 54);
+    /* border: 1px solid pink; */
+}
+
+.content {
+    padding: 2em 3em;
+}
+
+.banner {
+    height: 30em;
+    position: relative;
+}
+.background {
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.delorean {
+    background: url("./delorean.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+.falcon {
+    background: url("./millenium-falcon.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+.mystery {
+    background: url("./mystery-machine.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+.foreground {
+    position: absolute;
+    text-shadow: 0 0 1em #03000b;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3em;
+}
+p {
+    margin-top: 1em;
+}
+p:last-of-type {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
